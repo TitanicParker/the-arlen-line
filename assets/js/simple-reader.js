@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var a=document.getElementById('chapter');if(a){a.textContent='Reader wiring placeholder. Chapter Markdown files are in manuscript/chapters/.';}});
