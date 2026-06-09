@@ -1,1 +1,1 @@
-document.addEventListener('DOMContentLoaded',function(){var a=document.getElementById('chapter');if(a){a.textContent='Reader wiring placeholder. Chapter Markdown files are in manuscript/chapters/.';}});
+document.addEventListener('DOMContentLoaded',function(){var a=document.getElementById('chapter');if(!a)return;fetch('../manuscript/chapters/00-note-on-the-arlen-line-materials.md').then(function(r){return r.text();}).then(function(t){a.textContent=t;});});
